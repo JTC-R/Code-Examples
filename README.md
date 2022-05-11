@@ -10,3 +10,15 @@ The PDF_VERIFICATION script is designed to ensure that the PDF's are accurate, r
 
 
 The example PDF (SPY_report_20220509) is an Example PDF for the stock $SPY. Approximately 650+ reports are created daily and are the cummulation of several distinct data streams and data procssing that must occur prior to the creation of the reports. 
+
+The PYTHON JOBS APP was designed to web-scrape various job-hunting websites with user-input. It was mainly used as a learning example for Python but it is functional as of 06/2021. 
+The user is able to specify the websites they want searched, the type of jobs, the amount of queries, and set the location for the search. As of now, the websites searched are:
+
+    Monster.com,
+    Indeed.com,
+    Gettinghired.com,
+    Flexjobs.com,
+    Snagajob.com, and
+    Glassdoor.com
+
+All websites except for Glassdoor are straight-forward scrapes. However, Glassdoor has safeguards that have to be overcome - thus the prolonged mechanism for the creation of the appropriate Glassdoor URL can be noted.
