@@ -9,4 +9,4 @@ The GET_REPORT_INFORMATION script is designed to allow a signular access point f
 The PDF_VERIFICATION script is designed to ensure that the PDF's are accurate, represent the data they are supposed to (per their file name), and that the directory in which they are located is free from any non-PDF files. This function works by first reading the PDF, extracting the STOCK name and then compares it to the file name. If the two do not match, a corrupted file is logged and eventually re-produced. 
 
 
-The example PDF is an Example PDF for the stock $SPY. Approximately 650+ reports are created daily and are the cummulation of several distinct data streams and data procssing that must occur prior to the creation of the reports. 
+The example PDF (SPY_report_20220509) is an Example PDF for the stock $SPY. Approximately 650+ reports are created daily and are the cummulation of several distinct data streams and data procssing that must occur prior to the creation of the reports. 
